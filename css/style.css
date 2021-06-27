@@ -5,6 +5,7 @@ body{
 nav{
     background-color: #5cb85c  ;
     color: #fff !important;
+    height: 35px !important;
 }
 
 nav .navbar-brand{
@@ -30,4 +31,55 @@ nav .navbar-nav li{
     font-size: 16px
 }
 
- 
+#sidebar{
+    margin-top: 3rem;
+}
+
+.rounded-pill{
+    float: right
+}
+
+#side-user-card{
+    margin-top: 1rem;
+    
+}
+
+
+
+
+
+
+
+.disk-space{
+    margin-top: 1rem;
+    padding: 10px 5px;
+    background-color: #fff;
+    font-size: 17px;
+    
+}
+.bandwidth{
+     margin-top: 1rem;
+    padding: 10px 5px;
+    background-color: #fff;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer */
+footer{
+    background-color: #5cb85c;
+    color: #fff
+}

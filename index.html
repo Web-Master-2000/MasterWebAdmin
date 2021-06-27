@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
             <a class="navbar-brand" href="#"> MasterAdmin </a>
-            <a href="" class="navbar-brand" style="font-size: 14px">| Welcome Alex</a>
+            <a href="#" class="navbar-brand" style="font-size: 14px">| Welcome Alex</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,19 +38,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Dasboard</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Components
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Side Bar</a></li> <li><a class="dropdown-item" href="Componenets/alert.html">Alerts</a></li>
-                            <li><a class="dropdown-item" href="Componenets/fixed.html">Fixed Navbar</a></li> <li><a class="dropdown-item" href="Componenets/footer.html">
-                            Footer</a></li>
-                            
-                             
+                            <li><a class="dropdown-item" href="#">Side Bar</a></li>
+                            <li><a class="dropdown-item" href="Componenets/alert.html">Alerts</a></li>
+                            <li><a class="dropdown-item" href="Componenets/fixed.html">Fixed Navbar</a></li>
+                            <li><a class="dropdown-item" href="Componenets/footer.html">
+                                    Footer</a></li>
+
+
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -64,6 +65,9 @@
                             </li>
                             <li><a class="dropdown-item" href="#">Add-Posts</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile Settings</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">LogOut</a>
@@ -85,7 +89,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-10">
-                    <h1><i class="fas fa-cog"></i> DashBoard|<span style="">Manage Your Web Site</span></h1>
+                    <h1><i class="fas fa-cog"></i> DashBoard <span style="">Manage Your Web Site</span></h1>
 
                 </div>
                 <div class="col-md-2">
@@ -99,7 +103,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">General Settings</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">General Settings | Site Settings</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -132,18 +136,108 @@
         </div>
     </section>
 
-<!-- End Of Header-->
- <!-- Section -->
- 
- 
- 
- 
- 
- <!-- end of Section -->
- 
+    <!-- End Of Header-->
+    <!-- Section -->
+    <section id="side-user-card">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
 
- 
+                        <img src="assets/img/avatar-%C4%B0mg.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Alex Alex</h5>
+
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-9">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sidebar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            <i class="fas fa-cog"></i> Dashboard
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action"> <i class="fas fa-file"></i> All Pages <span class="badge bg-primary rounded-pill">7</span></a>
+                        <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-paper-plane"></i> All Posts <span class="badge bg-primary rounded-pill">22</span></a>
+                        <a href="#" class="list-group-item list-group-item-action"> <i class="fas fa-users"></i> Users <span class="badge bg-primary rounded-pill">34</span></a>
+                        <a href="#" class="list-group-item list-group-item-action "><i class="fas fa-envelope"></i> Messages <span class="badge bg-primary rounded-pill">14</span></a>
+
+                    </div>
+
+                    <div class="disk-space">
+
+                        <p>Disk Space Used</p>
+                        <div class="progress mt-2">
+
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="bandwidth">
+
+                        <p>Bandwidth Used</p>
+                        <div class="progress mt-2">
+
+                            <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+               
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- end of Section -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start    ">
+
+
+        <!-- Copyright -->
+        <div class="text-center p-4">
+            © 2021 Copyright:
+            <a class="text-reset  " href="https://masterweb2000.com/">MasterWeb2000.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
-    
-</body></html>
+
+</body>
+
+</html>
