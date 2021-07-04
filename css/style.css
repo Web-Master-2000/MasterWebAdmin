@@ -3,7 +3,7 @@ body{
 }
 
 nav{
-    background-color: #5cb85c  ;
+    background-color: #007bff!important  ;
     color: #fff !important;
     height: 35px !important;
 }
@@ -12,22 +12,25 @@ nav .navbar-brand{
     color: #fff !important
 }
 
-nav .navbar-nav li{
-    
-}
+ 
 
 #navbarSupportedContent .navbar-nav .nav-link{
     color: #fff !important;
 }
 
+#body-section{
+    height: 100%;
+    margin-bottom: 2rem
+}
 
 
 #heroSection{
-    background-color: grey;
+    background-color: #fff;
+    color:#007bff!important;
     padding: 20px 20px;
 }
 #heroSection span{
-    color: #fff !important;
+    color: #000!important;
     font-size: 16px
 }
 
@@ -65,12 +68,31 @@ nav .navbar-nav li{
 }
 
 
+.websie-ovirview{
+    text-align: center;
+    align-content: center
+}
 
 
+.website-overview-card{
+    padding: 30px 3px;
+    background-color: #e1e6ea!important;
+    color: #000;
+    font-size: 33px;
+    border-right: 4px solid #fff;
+    cursor: pointer;
+     
+}
+.website-overview-card a{
+    color: #000;
+    text-decoration: none;
+}
 
 
-
-
+.table-section{
+    padding: 10px;
+    background-color: #fff;
+}
 
 
 
@@ -80,6 +102,33 @@ nav .navbar-nav li{
 
 /*footer */
 footer{
-    background-color: #5cb85c;
+    background-color: #007bff !important;
     color: #fff
 }
+
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+   
+nav .admin-name{
+    display: none;
+}
+    nav{
+        height: 100% !important
+    }
+    #navbarSupportedContent > ul{
+        background-color: #007bff !important;
+     }
+
+    .heroSection{
+        text-align: center;
+        align-items: center;
+    }
+    #heroSection > div > div > div.col-md-2{
+       text-align: center;
+        margin-top: 1.2rem
+    }
+}
+
+

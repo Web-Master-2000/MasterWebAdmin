@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
             <a class="navbar-brand" href="#"> MasterAdmin </a>
-            <a href="#" class="navbar-brand" style="font-size: 14px">| Welcome Alex</a>
+            <a href="#" class="navbar-brand admin-name" style="font-size: 14px">| Welcome Alex</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,6 +47,7 @@
                             <li><a class="dropdown-item" href="#">Side Bar</a></li>
                             <li><a class="dropdown-item" href="Componenets/alert.html">Alerts</a></li>
                             <li><a class="dropdown-item" href="Componenets/fixed.html">Fixed Navbar</a></li>
+                            <li><a class="dropdown-item" href="Componenets/tables.html">Tables</a></li>
                             <li><a class="dropdown-item" href="Componenets/footer.html">
                                     Footer</a></li>
 
@@ -80,9 +81,8 @@
 
     <!-- End of Navbar Section -->
 
-    <!-- Alet Message -->
-
-
+     
+<section id="body-section">
     <!-- Header SEction -->
     <section id="heroSection">
 
@@ -117,7 +117,7 @@
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleFormControlInput1" class="form-label">Site Favicon Url</label>
-                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Site Favicon Urlr">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Site Favicon Url">
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleFormControlTextarea1" class="form-label">Site Description </label>
@@ -152,23 +152,64 @@
                         </div>
                     </div>
                 </div>
-                 <div class="col-md-9">
+                <div class="col-md-9">
+
+
+                    <!-- Alert Message -->
+                    <div class="alert alert-primary"   role="alert">
+                        <h4 class="alert-heading">Welcome to MasterAdmin </h4>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sint architecto deleniti dolore amet laboriosam doloribus quisquam dolores earum perspiciatis aliquam hic qui, facere aut totam doloremque itaque aspernatur! Impedit.</p>
+                        <hr>
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex et cum aliquid sunt fugiat, ipsam fuga, sapiente dignissimos beatae soluta laboriosam nesciunt saepe architecto impedit enim praesentium deleniti, eveniet aspernatur..</p>
+                    </div>
+
+
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Accordion Item #1
+                                    <strong>Website Oviervies</strong>
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <div class="websie-ovirview">
+                                        <div class="row ">
+
+                                            <div class="col-md-3 website-overview-card"><a href="">
+                                                    <p> 13 <i class="fas fa-users"></i></p>
+                                                    <p class="mt-1" style="font-size: 26px">Users</p>
+                                                </a></div>
+
+
+                                            <div class="col-md-3 website-overview-card"><a href="">
+                                                    <p> 23 <i class="fas fa-paper-plane"></i></p>
+                                                    <p class="mt-1" style="font-size: 26px">Posts</p>
+                                                </a></div>
+                                            <div class="col-md-3 website-overview-card"><a href="">
+                                                    <p> 43 <i class="fas fa-truck"></i></p>
+                                                    <p class="mt-1" style="font-size: 26px">Products</p>
+                                                </a></div>
+                                            <div class="col-md-3 website-overview-card"><a href="">
+                                                    <p> 54 <i class="fas fa-envelope"></i></p>
+                                                    <p class="mt-1" style="font-size: 26px">Message</p>
+                                                </a></div>
+
+
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
 
                     </div>
+
+
+
+
                 </div>
             </div>
         </div>
@@ -212,7 +253,81 @@
 
                 </div>
 
-               
+                <div class="col-md-9">
+                    <!-- Users-Table Section -->
+
+                    <div class="table-section ">
+                        <h3 class="text-center">Users</h3>
+                        <hr>
+                        <table class="table  table-striped ">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td colspan="2">Larry the Bird</td>
+                                    <td>@twitter</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                    <div class="table-section mt-3">
+                        <h3 class="text-center">All Products</h3>
+                        <hr>
+                        <table class="table  table-striped ">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td colspan="2">Larry the Bird</td>
+                                    <td>@twitter</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
 
             </div>
         </div>
@@ -220,7 +335,7 @@
 
 
     <!-- end of Section -->
-
+</section>
     <!-- Footer -->
     <footer class="text-center text-lg-start    ">
 
