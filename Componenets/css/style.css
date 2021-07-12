@@ -1,0 +1,8 @@
+#color{
+    margin-top: 3rem
+}
+ 
+
+#color table tr th:first-child:hover{
+    cursor: pointer
+}
