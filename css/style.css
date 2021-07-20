@@ -47,10 +47,17 @@ nav .navbar-brand{
     
 }
 
+.version-code{
+    font-size: 13px;
+    color: #000
+}
 
 
-
-
+.welcome-alert-message{
+    background-color: #007bff!important;
+    color: #fff;
+    text-align: center
+}
 
 
 .disk-space{
@@ -131,4 +138,31 @@ nav .admin-name{
     }
 }
 
+
+
+
+
+
+/* Login Page */
+#login{
+    min-height: 100vh
+}
+
+.login-card{
+    margin-top: 2rem;
+    align-content: center
+}
+
+
+
+.login-buttons button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%
+}
+.login-buttons a{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    width: 100%
+}
 
