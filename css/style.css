@@ -296,4 +296,15 @@ nav .admin-name{
     color: #0062cc;
 }
 
+.profile-work ul li a:hover{
+     background-color: #007bff !important;
+    color: #fff  !important;
+}
 
+.profile-work ul li:hover{
+    background-color: #007bff !important;
+     color: #fff  !important;
+}
+.blog-section{
+    margin-top: 2rem
+}
