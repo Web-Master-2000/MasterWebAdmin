@@ -21,31 +21,44 @@
 </head>
 
 <body>
-    <!-- Forgot Password  Page Section -->
-    <section id="forgot-password">
+    <!-- Login Page Section -->
+    <section id="login">
 
-        <div class="container  forgot-password " >
+        <div class="container " >
             <div class="row">
                 <div class="col-md-6 offset-md-3" >
-                    <h1 class="text-center mt-5 mb-3">Welcome to MasterAdmin</h1>
-                    <div class="card forgot-card">
+                    <h1 class="text-center mt-5">Welcome to MasterAdmin</h1>
+                    <div class="card login-card">
                         <div class="card-body">
-                         <h3 class="text-center">Changne or Reset Password</h3>
-                           <p class="mt-2">You forgot your password? Here you can easily retrieve a new password.</p>
-                            <form action="" method="post" class="mt-4">
+                         <h3 class="text-center">Sign in to start your session</h3>
+                            <form action="" method="post" class="mt-5">
                                 <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Name  </label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    
+                                </div>
+                                 <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">  Surname</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    
+                                </div>
+                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Email Address</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                     
                                 </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
                                
-                                
-                              <div class="forgot-buttons text-center">
-                                <button type="submit" class="btn btn-lg btn-primary">Request New Password</button>
-                                <a href="login.html">Login</a>
+                                <div class="login-buttons text-center">
+                                <button type="submit" class="btn btn-lg btn-primary">Sing Up</button>
+                                <p>Or</p>
                                
+                                 <a href="" class="btn btn-primary">Sing In</a>
+                                  <a href="forgot-password.html" >Forgot Password</a>
                                  </div>
-                               
                             </form>
                         </div>
                     </div>
